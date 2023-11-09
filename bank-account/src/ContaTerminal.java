@@ -34,8 +34,9 @@ public class ContaTerminal {
 
         ContaTerminal account = new ContaTerminal(number, agency, name, balance);
         //Exibir a mensagem de conta criada
-        System.out.println("Parabéns, " + account.clientName + "! Sua conta foi criada, com o número "
-        + account.number + ". Na agência: " + account.agency);
+        System.out.println("Olá " + account.clientName + ", obrigado por criar uma conta  "
+        + "em nosso banco, sua agência é " + account.agency + " conta " + account.number
+        + " e seu saldo " +  account.balance + " já está disponível para saque.");
         sc.close();
     }
 
